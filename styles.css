@@ -1,0 +1,181 @@
+body {
+  font-family: champagne_and_limousines;
+  color: #333e4b; }
+
+@font-face {
+  font-family: champagne_and_limousines;
+  src: url(champagne_and_limousines.ttf); }
+.content-wrapper {
+  padding: 4rem 0; }
+
+.header .logo-wrapper {
+  width: 7rem;
+  margin: auto; }
+.header .title {
+  font-size: 4rem;
+  margin-bottom: 2rem; }
+
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Sarabun', sans-serif;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  z-index: 8888; }
+  .nav-wrapper .nav-item {
+    font-size: 1.5rem;
+    width: 9rem;
+    border-right: 1px solid black; }
+    .nav-wrapper .nav-item.last {
+      border-right: 0px; }
+    .nav-wrapper .nav-item a, .nav-wrapper .nav-item a:visited, .nav-wrapper .nav-item a:focus {
+      text-decoration: none;
+      color: #333e4b; }
+      .nav-wrapper .nav-item a.active, .nav-wrapper .nav-item a:visited.active, .nav-wrapper .nav-item a:focus.active {
+        color: #f06426; }
+
+.side-navigation {
+  display: none;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0;
+  background-color: #333e4b;
+  width: 0px;
+  padding-top: 70px;
+  z-index: 7766;
+  transition: 0.5s; }
+  .side-navigation .nav-link {
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem; }
+    .side-navigation .nav-link .fas {
+      font-size: 1.4rem;
+      margin-right: 1.2rem; }
+  .side-navigation a, .side-navigation a:hover, .side-navigation a:visited {
+    text-decoration: none;
+    color: white; }
+  .side-navigation a.active {
+    color: #f06426; }
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 7777;
+  display: none; }
+
+@media (max-width: 700px) {
+  .nav-wrapper {
+    display: none; }
+
+  .hamburger {
+    display: block; }
+
+  .side-navigation {
+    display: block; } }
+.footer {
+  margin: 2rem;
+  font-size: 0.8rem; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+.content {
+  width: 100%;
+  margin: auto;
+  font-size: 1.6rem;
+  font-family: 'Sarabun', sans-serif; }
+  .content .hero-overlay {
+    position: relative;
+    top: -13rem;
+    background: white;
+    width: 90%;
+    margin: auto;
+    padding: 1.3rem 3rem; }
+    @media (max-width: 1000px) {
+      .content .hero-overlay {
+        top: -9rem; } }
+    @media (max-width: 700px) {
+      .content .hero-overlay {
+        top: -6rem; } }
+    @media (max-width: 550px) {
+      .content .hero-overlay {
+        top: -2rem; } }
+  .content .content-title {
+    text-align: center;
+    font-size: 5rem;
+    font-family: champagne_and_limousines;
+    margin-bottom: 3rem; }
+  .content .dates {
+    color: white;
+    padding: 2rem 0;
+    background-color: #333e4b; }
+    .content .dates.angled-top {
+      padding: 7rem 0;
+      -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+      margin-top: -5rem; }
+    .content .dates .dates-title {
+      text-align: center;
+      font-family: champagne_and_limousines;
+      font-size: 4rem; }
+    .content .dates .dates-list .date-item {
+      display: flex;
+      margin-bottom: 2rem; }
+      .content .dates .dates-list .date-item div {
+        padding: 0.3rem;
+        margin-left: 3rem; }
+      .content .dates .dates-list .date-item .date-block {
+        flex-grow: 0;
+        text-align: right;
+        width: 6rem;
+        text-align: center;
+        background-color: #19b5b4;
+        -ms-transform: skewY(20deg) rotate(20deg);
+        /* IE 9 */
+        -webkit-transform: skewY(20deg) rotate(20deg);
+        /* Safari 3-8 */
+        transform: skewY(-20deg) rotate(20deg); }
+      .content .dates .dates-list .date-item .date-city {
+        margin-left: 3rem; }
+  .content .restricted-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem; }
+
+.ekko-lightbox {
+  z-index: 9999; }
+
+.modal-backdrop {
+  z-index: 8899; }
+
+.gallery-row {
+  margin-bottom: 2rem; }
+
+.full-width {
+  width: 100%; }
+
+.orange-link, .orange-link:hover, .orange-link:visited {
+  text-decoration: none;
+  color: #f06426; }
+
+.flex {
+  display: flex; }
+  .flex.flex-no-wrap {
+    flex-wrap: nowrap; }
+  .flex.flex-justify-content {
+    justify-content: center; }
+
+.margin-small {
+  margin: 1rem; }
+
+.sub-text {
+  font-size: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */
