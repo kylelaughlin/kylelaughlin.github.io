@@ -115,6 +115,10 @@ body {
     @media (max-width: 500px) {
       .content .content-title {
         font-size: 3rem; } }
+    .content .content-title .sub-content {
+      margin-bottom: -2rem; }
+    .content .content-title .title-link {
+      font-size: 1.2rem; }
   .content .home-ep-content {
     margin-bottom: 2rem; }
   .content .dates {
@@ -166,6 +170,23 @@ body {
     margin: auto;
     padding-top: 3rem; }
 
+.content-header {
+  font-family: champagne_and_limousines;
+  color: #19b5b4;
+  font-size: 3rem; }
+  .content-header .sub-header-text {
+    color: #333e4b;
+    font-size: 1rem; }
+
+.small-text {
+  font-size: 1rem; }
+
+.press-photo {
+  margin-bottom: 1.5rem; }
+
+.content-block {
+  margin: 2rem 0; }
+
 .ekko-lightbox {
   z-index: 9999; }
 
@@ -189,11 +210,30 @@ body {
   .flex.flex-justify-content {
     justify-content: center; }
 
+.key-values .row-item {
+  display: flex;
+  margin: 0.5rem 0;
+  font-size: 1.1rem; }
+  .key-values .row-item.grouped {
+    margin: 0.1rem 0; }
+  .key-values .row-item .key {
+    color: #19b5b4;
+    width: 7rem; }
+  .key-values .row-item .sub-value {
+    margin-left: 1rem;
+    color: #8F959C; }
+
 .margin-small {
   margin: 1rem; }
 
 .sub-text {
   font-size: 1rem; }
+
+.sub-text-light {
+  color: #8F959C; }
+
+.margin-left {
+  margin-left: 2rem; }
 
 .social {
   margin-top: 5rem; }

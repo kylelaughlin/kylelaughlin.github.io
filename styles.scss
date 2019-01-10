@@ -1,6 +1,7 @@
 $teal: #19b5b4;
 $orange: #f06426;
 $dark: #333e4b;
+$off-dark: #8F959C;
 $white: white;
 
 body {
@@ -167,6 +168,14 @@ body {
     @media (max-width: 500px) {
       font-size: 3rem;
     }
+
+    .sub-content {
+      margin-bottom: -2rem;
+    }
+
+    .title-link {
+      font-size: 1.2rem;
+    }
   }
 
   .home-ep-content {
@@ -242,6 +251,29 @@ body {
   }
 }
 
+.content-header {
+  font-family: champagne_and_limousines;
+  color: $teal;
+  font-size: 3rem;
+
+  .sub-header-text {
+    color: $dark;
+    font-size: 1rem;
+  }
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+.press-photo {
+  margin-bottom: 1.5rem;
+}
+
+.content-block {
+  margin: 2rem 0;
+}
+
 .ekko-lightbox {
   z-index: 9999;
 }
@@ -275,12 +307,42 @@ body {
   }
 }
 
+.key-values {
+  .row-item {
+    display: flex;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+
+    &.grouped {
+      margin: 0.1rem 0;
+    }
+
+    .key {
+      color: $teal;
+      width: 7rem;
+    }
+
+    .sub-value {
+      margin-left: 1rem;
+      color: $off-dark;
+    }
+  }
+}
+
 .margin-small {
   margin: 1rem;
 }
 
 .sub-text {
   font-size: 1rem;
+}
+
+.sub-text-light {
+  color: $off-dark;
+}
+
+.margin-left {
+  margin-left: 2rem;
 }
 
 .social {
