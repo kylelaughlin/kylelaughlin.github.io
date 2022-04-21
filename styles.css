@@ -173,7 +173,7 @@ body {
       .content .dates .dates-list .date-item .date-block {
         flex-grow: 0;
         text-align: right;
-        width: 6rem;
+        width: 7rem;
         text-align: center;
         background-color: #19b5b4;
         -ms-transform: skewY(20deg) rotate(20deg);
